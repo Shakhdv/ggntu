@@ -1,0 +1,110 @@
+.container {
+    height: 850px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 100px;
+    gap: 20px;
+  }
+  
+  .left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  .right{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    /* height: 686px; */
+    height: 100%;
+    justify-content: space-between;
+
+  }
+  /* .right ul{
+    height: 616px;
+  } */
+  .search {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 25px;
+    width: 100%;
+    border: 1px solid #962237;
+    border-radius: 8px;
+    margin-bottom: 40px;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    max-height: 96px;
+    height: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  .card:hover{
+    background-color: grey;
+    border: none;
+  }
+  
+  .card h2 {
+    margin: 0 0 10px 0;
+    width: 350px;
+    margin-right: 40px;
+  }
+  .level{
+    max-width: 150px;
+    width: 100%;
+    margin-right: 150px;
+  }
+  
+
+  
+  button {
+    background-color: #962237;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #115293;
+  }
+  .card h2{
+    color: #962237;
+  }
+  .left h2{
+    color: black;
+  }
+  .price{
+    color: black;
+  }
+  .left select{
+    padding: 6px 9px;
+    font-size: 15px;
+  }
+  .under{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    border-bottom: 4px solid #962237;
+    margin-bottom: 40px;
+  }
+  .under div{
+    font-size: 20px;
+    padding-bottom: 15px;
+  }

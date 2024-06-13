@@ -1,0 +1,96 @@
+.footer{
+    background: none repeat scroll 0% 0% #212D3A;
+
+    height: 100%;
+}
+a{
+
+    text-decoration: none;
+    color: #9E9E9E;
+
+}
+
+a:hover{
+    color: white;
+}
+.footer_text:hover{
+    color: white;
+}
+
+
+.footer_top{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.footer_center{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 100%;
+}
+p{
+    color: #9E9E9E;
+}
+h6{
+    margin: 0;
+    font-size: 15px;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contacts_right{
+    display: flex;
+    gap: 20px;
+}
+.contacts_right div{
+    height: 95px;
+    width: 186px;
+}
+.footer_left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+h4{
+    margin:5px
+}
+.footer_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    -webkit-box-shadow: -1px -2px 16px -8px rgba(0,0,0,0.62);
+    -moz-box-shadow: -1px -2px 16px -8px rgba(0,0,0,0.62);
+    box-shadow: -1px -2px 16px -8px rgba(0,0,0,0.62);
+}
+.kart{
+    width: 35%;
+
+}
+.email:hover{
+    color: #962237;
+}
+.sc{
+    display: flex;
+    gap: 30px;
+}
+.sc div{
+    border: 1px solid white;
+    padding: 7px 8px;
+    border-radius: 5px;
+    text-align: center;
+}
+.sc div:hover{
+    color: #962237;
+    border-color: #962237;
+}
+
+
+@media screen and (max-width: 1100px){
+
+}

@@ -16,6 +16,8 @@ const subjects = [
   { label: 'Английский язык', name: 'english' },
   { label: 'Композиция', name: 'composition' },
   { label: 'Рисунок', name: 'picture' },
+  { label: 'профессиональное испытание', name: 'proff' },
+
 ];
 
 const faculties = [
@@ -51,6 +53,136 @@ const faculties = [
     name: 'Инфокоммуникационные технологии и системы связи',
     requiredScores: { math: 39, russian: 40, informatics: 44, physics: 39 },
   },
+  {
+    name: 'Теплоэнергетика и теплотехника',
+    requiredScores: { math: 39, russian: 40, chemistry: 39 , physics: 39 },
+    byChoice: ['chemistry', 'physics'],
+  }
+  ,
+  {
+    name: 'Электроэнергетика и электротехника',
+    requiredScores: { math: 39, russian: 40, physics: 39 },
+  },
+  
+  {
+    name: 'Технологические машины и оборудование',
+    requiredScores: { math: 39, russian: 40, physics: 39 },
+  },
+  
+  {
+    name: 'Автоматизация технологических процессов и производств',
+    requiredScores: { math: 39, russian: 40, informatics: 44, physics: 39 },
+    byChoice: ['physics', 'informatics'],
+  },
+  
+  {
+    name: 'Конструкторско-технологическое обеспечение машиностроительных производств',
+    requiredScores: { math: 39, russian: 40, physics: 39 },
+  },
+  
+  {
+    name: 'Химическая технология',
+    requiredScores: { math: 39, russian: 40, chemistry: 39  },
+  },
+  
+  {
+    name: 'Продукты питания из растительного сырья',
+    requiredScores: { math: 39, russian: 40, chemistry: 39 },
+  },
+  
+  {
+    name: 'Техносферная безопасность',
+    requiredScores: { math: 39, russian: 40, chemistry: 39},
+  },
+  {
+    name: 'Нефтегазовое дело',
+    requiredScores: { math: 39, russian: 40,physics: 39 },
+  },
+  {
+    name: 'Землеустройство и кадастры',
+    requiredScores: { math: 39, russian: 40, physics: 39 },
+  },
+  {
+    name: 'Землеустройство и кадастры',
+    requiredScores: { math: 39, russian: 40, informatics: 44, physics: 39 },
+    byChoice: ['physics', 'informatics'],
+  },
+  {
+    name: 'Прикладная геология',
+    requiredScores: { math: 39, russian: 40, physics: 39 },
+  },
+  {
+    name: 'Технология геологической разведки',
+    requiredScores: { math: 39, russian: 40, physics: 39 },
+  },
+  {
+    name: 'Нефтегазовые техника и технологии',
+    requiredScores: { math: 39, russian: 40, physics: 39 },
+  },
+  {
+    name: 'Технология транспортных процессов',
+    requiredScores: { math: 39, russian: 40, physics: 39 },
+  },
+  {
+    name: 'Наземные транспортно-технологические комплексы',
+    requiredScores: { math: 39, russian: 40,  physics: 39 },
+  },
+  {
+    name: 'Эксплуатация транспортно-технологических машин и комплексов',
+    requiredScores: { math: 39, russian: 40, physics: 39 },
+  },
+  {
+    name: 'Наземные транспортно-технологические средства',
+    requiredScores: { math: 39, russian: 40, physics: 39 },
+  },
+  {
+    name: 'Стандартизация и метрология',
+    requiredScores: { math: 39, russian: 40, physics: 39 },
+  },
+  {
+    name: 'Стандартизация и метрология',
+    requiredScores: { math: 39, russian: 40, informatics: 44, physics: 39 },
+    byChoice: ['physics', 'informatics'],
+  },
+  {
+    name: 'Лесное дело',
+    requiredScores: { math: 39, russian: 40, informatics: 44 },
+  },
+  {
+    name: 'Ландшафтная архитектура',
+    requiredScores: { math: 39, russian: 40, informatics: 44,geography: 40},
+    byChoice: ['geography', 'informatics'],
+  },
+ {
+    name: 'Экономика',
+    requiredScores: { math: 39, russian: 40, socialStudies: 45 },
+  },
+  {
+    name: 'Менеджмент',
+    requiredScores: { math: 39, russian: 40, socialStudies: 45 },
+  },
+  {
+    name: 'Государственное и муниципальное управление',
+    requiredScores: { math: 39, russian: 40, socialStudies: 45 },
+  },
+  {
+    name: 'Бизнес-информатика',
+    requiredScores: { math: 39, russian: 40, socialStudies: 45 },
+  },
+  {
+    name: 'Экономическая безопасность',
+    requiredScores: { math: 39, russian: 40, socialStudies: 45 },
+  },
+  {
+    name: 'Таможенное дело',
+    requiredScores: { proff: 30, russian: 40, socialStudies: 45 },
+  },
+  {
+    name: 'Юриспруденция',
+    requiredScores: {  socialStudies: 45, russian: 40, history: 35 },
+  },
+
+  
   // Add more faculties as needed
 ];
 
